@@ -79,7 +79,7 @@ function update()
         alert("Game Over "+score);
     }
 
- for(let i=0;i<snakeX.length;i++)
+ for(let i=0;i<snakebody.length;i++)
 {
     if(snakeX==snakebody[i][0]&&snakeY==snakebody[i][1]){
         gameover=true;
